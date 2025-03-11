@@ -1,0 +1,210 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+
+.navigasi {
+    background-color: #3b4997;
+    width: 100%;
+    height: 50px;
+    color: white;
+    position: fixed;
+    margin: 0%;
+}
+
+
+.logo {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+
+.menu {
+    margin-left: 300px;
+    padding-top: 20px;
+}
+
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+
+.banner {
+    background-color: #3b5999;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+h1 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 70px;
+}
+
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    25%  {
+        content: 'Perkenalkan';
+    }
+    50% {
+        content: 'Saya Gamma Alfatah';
+    }
+    75% {
+        content: 'Saya Dari Rombel PPLG X-3';
+    }
+    100% {content: 'Terimakasih Sudah Berkunjung!';
+    }
+}
+
+
+.box-pendidikan {
+    text-align: center;
+    color: black;
+    align-content: center;
+    margin-top: 0px;
+    height: 500px;
+    padding-top: 20px;
+    background-color:  #3b5999;
+    display: flex;
+}
+
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 270px;
+    height: 300px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 10px 10px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+}
+
+.box-pendidikan h3,p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding-top: 0px 20px;
+}
+
+.box-softskill {
+    text-align: center;
+    color: black;
+    margin: 0px auto;
+    margin-top: 0px;
+    height: 450px;
+    padding-top: 70px;
+    background-color: #3b5999;
+    display: flex;
+}
+
+.box-kontak {
+    text-align: center;
+    color: black;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding-top: 70px;
+    background-color: #3b5999;
+}
+
+.box-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-wa, .box-ig {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 0px 20px 20px 0px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-ig a, .box-wa a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-wa:hover,.box-ig:hover {
+    background-color: #3b5999;
+    color:white;
+    text-decoration: none;
+}
+
+.blok {
+    text-align: center;
+    margin: auto 0px;
+    margin-top: 0px;
+    padding-top: 110px;
+    color: black;
+}
+
+.batas {
+    text-align: left;
+    background-color: #3b5999;
+    width: 1180px;
+    height: 300px;
+    margin: 30px 20px 20px 30px;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+
+
+
+footer {
+    background: #3b4997;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
